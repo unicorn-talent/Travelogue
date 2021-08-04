@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Your Travel App</title>
+    <link href="main.css" rel="stylesheet"></head>
+
+    <body>
+        <header>
+            <div id="note"> <section> 
+                <h1>Your Travel App</h1>
+                <p>The world is a big place. Get inspired by your dream destinations from around the globe. Need help with travel plans. Your online Travel App is the best place to plan your trip. Cruise on the world with your online Travel App, you are guaranteed to find nice places on the globe to revel in the freedom of a destinationless journey. Discover the world's most majestic rivers and experience the ultimate royal treatment on your travels</p></section>
+            </div>
+            <div>
+                <input id ="refresh" type="submit" onClick="window.location.reload()" name="input" value="Reload">
+            </div>
+        </header>
+
+        <main>
+            <section>
+            <form class="body main"><p>There world is at your feet. Make your wish to travel anywhere</p>
+            <h2 id="target"> Destination
+            <input id="city" class="field" type="text" name="input" required value="" onblur="" placeholder="Enter a City">
+            </h2>
+            <h2 id="target"> Depature Date
+            <input id="first-date" class="field" type="date" name="input" required placeholder="dd-mm-yyyy">
+            </h2>
+            <h2 id="target"> Arrival Date
+            <input id="second-date" class="field" type="date" name="input" required placeholder="dd-mm-yyyy">
+            </h2>
+            <input type="submit" class = "field" id="button" name="" value="Save Trip">
+                <ul>
+                  <li>
+                    <h4>Country Code-: <span id="country"> </span></h4>                                      
+                  </li>
+
+                  <li>
+                    <h4>Countdown-: <span id="countdown"></span></h4>
+                </li>
+                <li>
+                    <h4>Length of Trip-: <span id="length"></span></h4>                  
+                </li>
+                <li>                  
+                    <h4>Longtitude-: <span id="longtitude"></span></h4>                 
+                  </li>
+                  <li>
+                    <h4>Latitude-: <span id="latitude"></span></h4>                  
+                  </li>
+                  <li>
+                    <h4>Summary of Trip-: <span id="details"></span></h4>                  
+                  </li>
+                  <li>
+                    <h4>Prospective Weather-: <span id="weather"></span></h4>                  
+                  </li>
+                </ul> 
+                <div id="image"></div>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <h3>Udacity</h3>
+        </footer>
+
+    <script type="text/javascript" src="bundle.min.js"></script></body>
+    <script>
+    /* Check that service workers are supported
+    if ('serviceWorker' in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }*/
+
+
+</script>
+</html>

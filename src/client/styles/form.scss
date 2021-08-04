@@ -1,0 +1,53 @@
+form {
+    border-radius: 3px;
+    padding: 40px;
+    margin: auto;
+}
+
+input {
+    padding: 5px 20px;
+    width: 400px;
+    line-height: 30px;
+    margin: 10px 0;
+    display: flex;
+}
+
+.body {	
+	&.main { 
+		background-color: maroon; 
+	}
+}
+
+ h3, h4 {
+    color: lime;
+    fontweight: bolder;
+}
+
+#button {
+    width: 200px;
+    line-height: 50px;
+    font-weight: bolder;
+    font-size: xx-large;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+    input {
+        width: 200px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    button {
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+    }
+}

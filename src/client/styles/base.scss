@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 2;
+    background-color: chocolate;
+}
+
+section {
+    max-width: 90%;
+    margin: 50px auto;
+
+}

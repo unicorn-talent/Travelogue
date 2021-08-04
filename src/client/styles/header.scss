@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: sandybrown;
+}
+
+#refresh:hover {
+    background-color: lightcoral;
+    color: mediumvioletred;
+}
+
+#refresh {
+    width: 160px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: xx-large;
+    cursor: pointer;
+    justify-content: center;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+
+    #refresh {
+        width: 120px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
